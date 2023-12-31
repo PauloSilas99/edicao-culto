@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edição AJ</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="container">
+            <img src="logo/alianca jovem.png" alt="">
+        </div>
+        <form class="dados">
+            <h3>Edição de foto Aliança Jovem</h3>
+            <label for="nome">Nome do(a) Mistrante</label>
+            <input id="nome" type="text">
+            <label for="tema">Tema da Palavra</label>
+            <input id="tema" type="text">
+            <label for="data">Data</label>
+            <input id="data" type="date">
+            <button id="botao">Encaminhar</button>
+        </form>
+    </div>
+    <div class="camp-seletor" id="camp-seletor">
+        <div class="camp-img">
+            <p id="espaco-nome" class="espaco-nome"></p>
+            <h2 id="espaco-tema" class="espaco-tema"></h2>
+            <span id="horario-culto" class="horario-culto"></span>
+            <span class="loc">R.VINÍCIUS DE MORAES,Nº11<br>VILA PARATI-IMPERATRIZ-MA</span>
+        </div>
+    </div>
+    <button id="botaoBaixar" class="btn2">Baixar Imagem</button>
+</body>
+<script src="script.js"></script>
+</html>

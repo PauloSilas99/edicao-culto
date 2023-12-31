@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/cesar-couto-sKuVjm0xyLY-unsplash.jpg) no-repeat;
+    background-size:cover;
+    background-position: bottom bottom;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 20px;
+    background: rgb(107, 107, 201);
+    padding: 10px 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.container img{
+    width: 400px;
+}
+@media(max-width:400px){
+    .container img{
+        width: 300px;
+    }
+    button{
+        margin-bottom: 15px;
+    }
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 5px rgb(107, 107, 201);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 93px;
+}
+@media(max-width:410px){
+    .dados{
+        padding: 8px 42px;
+    }
+}
+input{
+    border-radius: 6px;
+    border: solid 1px;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: solid 1px;
+}
+.corpo{
+    background: url(img/Culto\ de\ celebração\ _\ stories.png);
+}
+.camp-seletor{
+    display: none;
+    margin-top:20px;
+}
+.camp-img{
+    background: url(img/Culto\ de\ celebração\ _\ stories.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.espaco-nome{
+    margin-top: 150px;
+    color: white;
+}
+.espaco-tema{
+    margin: 30px 0px;
+    color: white;
+}
+.horario-culto{
+    color: white;
+    margin-top: 30px;
+}
+.loc{
+    padding-top: 50px;
+    color: white;
+    font-size: 12px;
+}
+.btn2{
+    display: none;
+    margin: 10px auto;
+}
